@@ -1,5 +1,3 @@
 #!/usr/bin/python3
-lower = range(97,123)
-for c in lower:
-    print("{}".format(chr(c)), end=',')
-    
+for a in range(ord('a'), ord('z') + 1):
+    print("{:c}".format(a), end='')
