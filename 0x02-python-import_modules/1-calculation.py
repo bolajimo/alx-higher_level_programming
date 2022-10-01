@@ -19,5 +19,5 @@ print("{} * {} = {}".format(10, 5, mul(10, 5)))
 def div(a, b):
     a = 10
     b = 5
-    return a // b
-print("{} // {} = {}".format(10, 5, div(10, 5)))
+    return a / b
+print("{} / {} = {}".format(10, 5, div(10, 5)))
